@@ -23,7 +23,11 @@ namespace SistemaLogin
         {
             foreach (Usuario usuario in usuarios)
             {
-
+                if (usuario.Nome == nome && usuario.Senha == nome)
+                {
+                    UsuarioLogado = usuario;
+                    return true;
+                }
             }
             return false;
         }
