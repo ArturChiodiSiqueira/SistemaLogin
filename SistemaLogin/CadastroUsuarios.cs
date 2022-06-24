@@ -11,7 +11,7 @@ namespace SistemaLogin
         private static Usuario[] usuarios =
         {
             new Usuario(){Nome = "Gabriel", Senha = "abc123"},
-            new Usuario(){Nome = "Danny", Senha = "123abc"},
+            new Usuario(){Nome = "Julia", Senha = "123abc"},
             new Usuario(){Nome = "Artur", Senha = "abcd"}
         };
 
