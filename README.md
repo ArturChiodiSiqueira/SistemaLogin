@@ -1,4 +1,4 @@
 # SistemaLogin
 Using Windows Forms App...
-## Possui erro a ser corrigido
+## Possui um erro no acesso a ser corrigido.
 
