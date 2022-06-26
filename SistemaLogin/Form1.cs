@@ -32,6 +32,7 @@ namespace SistemaLogin
                     return;
                 }
             }
+            label_BoasVindas.Text = "Bem Vindo(a)!!! \n" + CadastroUsuarios.UsuarioLogado.Nome;
             Visible = true;
         }
     }
