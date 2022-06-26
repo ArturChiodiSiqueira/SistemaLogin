@@ -20,7 +20,19 @@ namespace SistemaLogin
         private void Form1_Load(object sender, EventArgs e)
         {
             FormLogin form = new FormLogin();
-            form.ShowDialog();
+
+            while (CadastroUsuarios.UsuarioLogado == null)
+            {
+                Visible = false;
+                form.ShowDialog();
+
+                if (FormLogin.Cancelar == true)
+                {
+                    Application.Exit();
+                    return;
+                }
+            }
+            Visible = true;
         }
     }
 }
